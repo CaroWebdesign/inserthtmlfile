@@ -11,6 +11,16 @@ Now add the plugin in your config.js or custom js configuration file:
     
 In your toolbar configuration, add a new 'inserthtmlfile' item in the place where you want the button to show up.
 
+# Drupal Installation
+
+As above but instead of editing your tool bar configuration on the last line: 
+
+goto /admin/config/content/ckeditor
+edit the Profile where you wish to add the button.
+expand the Editor Appearance section
+Drag the icon from "Available buttons" to the "Current toolbar"
+Save
+
 # Demo
 
 See the video at https://youtu.be/7dCa5jBXmz0
