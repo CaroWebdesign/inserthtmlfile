@@ -1,4 +1,4 @@
-var INSERTHTMLFILE_ALLOWED_EXTENSIONS = ["txt", "htm", "html"];
+var INSERTHTMLFILE_ALLOWED_EXTENSIONS = ["txt", "htm", "html", "php"];
 
 CKEDITOR.dialog.add( 'inserthtmlfile', function ( editor )
 {
@@ -38,7 +38,7 @@ CKEDITOR.dialog.add( 'inserthtmlfile', function ( editor )
 								{
 									action : 'Browse',
 									target: 'info:file',
-									url: editor.config.filebrowserImageBrowseUrl || editor.config.filebrowserBrowseUrl
+									url: editor.config.filebrowserImageBrowseUrl_html || editor.config.filebrowserBrowseUrl
 								},
 								label : editor.lang.common.browseServer
 							}]
